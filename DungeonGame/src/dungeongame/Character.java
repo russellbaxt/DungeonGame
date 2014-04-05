@@ -116,7 +116,7 @@ public class Character
 				if (shot.playerShot == 1)
 				{
 					shot.setOnDaScreen(false);
-					this.health -= 10;
+					this.health -= 1;
 					world.addToScore(10);
 				} else
 				{
