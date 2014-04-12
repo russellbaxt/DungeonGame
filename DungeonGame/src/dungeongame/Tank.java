@@ -7,7 +7,7 @@ public class Tank extends Enemy {
 	public Tank(int x, int y, World world) {
 		super(x, y, world);
 		speed = 2;
-		maxHealth = 30;
+		maxHealth = 10;
 		health = maxHealth;
 		color = new Color(128, 0, 0);
 		color2 = new Color(64, 0, 0);

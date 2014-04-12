@@ -9,7 +9,7 @@ public class Sniper extends Enemy {
 		width = 16;
 		height = 16;
 		shoots = true;
-		maxHealth = 5;
+		maxHealth = 3;
 		health = maxHealth;
 		color = new Color(255, 0, 128);
 		color2 = new Color(192, 0, 64);
