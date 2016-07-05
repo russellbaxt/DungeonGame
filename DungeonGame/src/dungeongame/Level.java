@@ -22,7 +22,7 @@ public class Level {
 
 	public void drawCharacters1() {
 		r = new BufferedReader(new InputStreamReader(getClass()
-                    .getResourceAsStream("levels/level" + levelNumber
+                    .getResourceAsStream("level" + levelNumber
                     + ".txt")));
 		for (int i = 0; i < 30; i++) {
 			for (int j = 0; j < 40; j++) {
