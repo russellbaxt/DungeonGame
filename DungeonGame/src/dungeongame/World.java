@@ -44,12 +44,7 @@ public class World {
 		if (enemies == 0) {
 			characters.remove(0);
 			projectiles.removeAll(projectiles);
-                        if(levelNumber < Constants.numberOfLevels){
-			    levelNumber += 1;
-                        }
-                        else{
-                            levelNumber = 1;
-                        }
+			levelNumber += 1;
 			Level level = new Level("Hi", levelNumber, this);
 		}
 		for (int i = 0; i < characters.size(); i++) {
